@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@theme {
+  /* Custom Colors */
+  /* This creates utilities like bg-ocean-blue, text-ocean-blue, border-ocean-blue */
+  --color-ocean-blue: #0ea5e9;
+  --color-cherry-red: #ef4444;
+
+  /* Custom Font Sizes */
+  /* This creates utilities like text-tiny, text-massive */
+  --text-tiny: 12px;
+  --text-massive: 14px;
+  
+  /* You can also use fluid typography with clamp() */
+  --text-fluid: clamp(1rem, 2.5vw, 2rem); 
+}
