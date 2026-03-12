@@ -29,12 +29,12 @@ const OurServices = () => {
   ];
 
   return (
-    <div className="mt-30">
+    <div className="mt-25">
       <h1 className="text-4xl font-bold text-darkBlue flex justify-center">
         Our Services
       </h1>
 
-      <div className="mt-18 gap-10 flex justify-center">
+      <div className="mt-17 gap-10 flex justify-center">
         {servicelist.map((items) => (
           <div key={items.id} className="relative group w-65">
             {/* Blue Shape */}

@@ -1,3 +1,4 @@
+import DestinatioSection from "./components/DestinatioSection";
 import Header from "./components/header";
 import Herosection from "./components/Herosection";
 import OurServices from "./components/OurServices";
@@ -9,6 +10,7 @@ function FrontPage() {
       <Header />
       <Herosection />
       <OurServices />
+      <DestinatioSection/>
     </container>
   );
 }
