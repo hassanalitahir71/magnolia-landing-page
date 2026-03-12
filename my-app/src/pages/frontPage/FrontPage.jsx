@@ -4,11 +4,11 @@ import OurServices from "./components/OurServices";
 
 function FrontPage() {
   return (
-    <container className="flex flex-col items-center bg-backColor pt-5 justify-center gap-15">
+    <container className="flex flex-col items-center bg-backColor pt-5  justify-center gap-15">
       {" "}
       <Header />
       <Herosection />
-      <OurServices/>
+      <OurServices />
     </container>
   );
 }
