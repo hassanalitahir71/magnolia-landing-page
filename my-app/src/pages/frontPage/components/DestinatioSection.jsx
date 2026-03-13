@@ -33,7 +33,7 @@ const DestinatioSection = () => {
       {destination_list.map((items) => (
         <div key={items.id} className=" h-full  w-65">
           <img className="h-[70%] w-full rounded-t-xl" src={items.img} alt="" />
-          <div className="h-[30%] flex flex-col  bg-white p-5 rounded-b-xl gap-3">
+          <div className="h-[30%] flex flex-col  bg-white p-5 rounded-b-xl gap-=1">
             <div className="flex  flex-col gap-1 ">
             <h1 className="text-xl font-semibold">{items.destination}</h1>
             <div className="flex flex-row">

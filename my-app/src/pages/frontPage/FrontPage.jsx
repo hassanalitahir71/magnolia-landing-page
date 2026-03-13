@@ -2,6 +2,7 @@ import DestinatioSection from "./components/DestinatioSection";
 import Header from "./components/header";
 import Herosection from "./components/Herosection";
 import OurServices from "./components/OurServices";
+import TestimonialsSection from "./components/TestimonialsSection";
 
 function FrontPage() {
   return (
@@ -11,6 +12,7 @@ function FrontPage() {
       <Herosection />
       <OurServices />
       <DestinatioSection/>
+      <TestimonialsSection/>
     </container>
   );
 }
