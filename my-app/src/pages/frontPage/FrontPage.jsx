@@ -1,4 +1,5 @@
 import DestinatioSection from "./components/DestinatioSection";
+import EmailSection from "./components/EmailSection";
 import Header from "./components/header";
 import Herosection from "./components/Herosection";
 import OurServices from "./components/OurServices";
@@ -13,6 +14,7 @@ function FrontPage() {
       <OurServices />
       <DestinatioSection/>
       <TestimonialsSection/>
+      <EmailSection/>
     </container>
   );
 }

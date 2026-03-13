@@ -72,7 +72,7 @@ const TestimonialsSection = () => {
         Testimonials
       </h1>
 
-      <div className="w-[80%] h-90 mx-auto py-5">
+      <div className="w-[90%] h-90 mx-auto py-5">
         <Slider {...settings}>
           {TestimonialList.map((items) => (
             <div key={items.id} className="px-4">
