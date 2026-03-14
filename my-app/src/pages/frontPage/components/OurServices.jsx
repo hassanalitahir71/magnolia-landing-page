@@ -29,35 +29,37 @@ const OurServices = () => {
   ];
 
   return (
-    <div className="mt-25">
-      <h1 className="text-4xl font-bold text-darkBlue flex justify-center">
+    <div className="mt-20 px-6">
+      {/* Title */}
+      <h1 className="text-3xl md:text-4xl font-bold text-darkBlue text-center">
         Our Services
       </h1>
 
-      <div className="mt-17 gap-10 flex justify-center">
+      {/* Services Grid */}
+      <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 place-items-center">
         {servicelist.map((items) => (
-          <div key={items.id} className="relative group w-65">
+          <div key={items.id} className="relative group w-full max-w-[260px]">
             {/* Blue Shape */}
             <div
-              className="absolute bottom-5 -left-6 h-24 w-24 bg-blue-600 
-            rounded-tl-3xl rounded-br-3xl opacity-0 
-            group-hover:opacity-100 transition-all duration-300"
+              className="absolute bottom-5 -left-6 h-24 w-24 bg-blue-600
+              rounded-tl-3xl rounded-br-3xl opacity-0
+              group-hover:opacity-100 transition-all duration-300"
             ></div>
 
             {/* Card */}
             <div
-              className="relative z-10 flex flex-col items-center text-center gap-4 p-8 
-            rounded-[40px] bg-backColor
-            transition-all duration-300 
-            group-hover:bg-white 
-            group-hover:shadow-2xl 
-            group-hover:-translate-y-5"
+              className="relative z-10 flex flex-col items-center text-center gap-4 p-8
+              rounded-[40px] bg-backColor
+              transition-all duration-300
+              group-hover:bg-white
+              group-hover:shadow-2xl
+              group-hover:-translate-y-5"
             >
               <img className="h-16" src={items.img} alt={items.name} />
 
               <h1 className="text-xl font-bold text-darkBlue">{items.name}</h1>
 
-              <p className="text-sm text-center text-gray-500">{items.text}</p>
+              <p className="text-sm text-gray-500">{items.text}</p>
             </div>
           </div>
         ))}

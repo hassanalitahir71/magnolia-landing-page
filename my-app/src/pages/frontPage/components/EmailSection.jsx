@@ -2,34 +2,46 @@ import { TbMail } from "react-icons/tb";
 
 const EmailSection = () => {
   return (
-    <>
-      <div className="bg-[url('/images/bg.png')] rounded-xl rounded-tl-[70px] bg-center h-65 w-[70%] flex  justify-center items-center relative">
+    <div className="w-full flex justify-center px-6 mt-20">
+      <div
+        className="bg-[url('/images/bg.png')] bg-center bg-cover 
+      rounded-xl rounded-tl-[70px] 
+      w-full max-w-4xl 
+      py-12 px-6 md:px-12 
+      flex justify-center items-center relative"
+      >
+        {/* Arrow Icon */}
         <img
           src="/images/arrowicon.png"
           alt=""
-          className="absolute -top-6 -right-6"
+          className="absolute -top-6 -right-6 w-12 md:w-16"
         />
-        <div className="h-[70%] w-[60%] flex flex-col justify-center items-center  gap-13">
-          <h1 className=" w-full text-xl font-bold text-gray text-center">
+
+        <div className="w-full max-w-2xl flex flex-col items-center gap-8">
+          {/* Text */}
+          <h1 className="text-lg md:text-xl font-bold text-gray text-center">
             Subscribe to get information, latest news and other interesting
             offers about our Services
           </h1>
-          <div className="w-full flex flex-row justify-center items-center gap-3">
-            
-            <input
-              type="text"
-              placeholder="Your email"
-              className="bg-white h-9 w-[60%] rounded-md p-2  relative"
-            />
-                
 
-            <button className=" text-white hover:text-lightBlack rounded-md  cursor-pointer p-1 h-9 bg-darkBlue   shadow-lg hover:bg-tabBlue w-25 ">
+          {/* Input + Button */}
+          <div className="w-full flex flex-col sm:flex-row gap-3">
+            <div className="flex items-center bg-white rounded-md px-3 w-full h-10">
+              <TbMail className="text-gray-400 mr-2" />
+              <input
+                type="text"
+                placeholder="Your email"
+                className="outline-none w-full"
+              />
+            </div>
+
+            <button className="bg-darkBlue text-white px-6 h-10 rounded-md hover:bg-tabBlue transition">
               Subscribe
             </button>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
