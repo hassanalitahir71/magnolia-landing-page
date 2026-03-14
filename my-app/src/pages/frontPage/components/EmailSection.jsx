@@ -3,7 +3,7 @@ import { TbMail } from "react-icons/tb";
 const EmailSection = () => {
   return (
     <>
-      <div className="bg-[url('/images/bg.png')] bg-cover bg-center h-65 w-[70%] flex  justify-center items-center relative">
+      <div className="bg-[url('/images/bg.png')] rounded-xl rounded-tl-[70px] bg-center h-65 w-[70%] flex  justify-center items-center relative">
         <img
           src="/images/arrowicon.png"
           alt=""
@@ -15,11 +15,13 @@ const EmailSection = () => {
             offers about our Services
           </h1>
           <div className="w-full flex flex-row justify-center items-center gap-3">
+            
             <input
               type="text"
               placeholder="Your email"
               className="bg-white h-9 w-[60%] rounded-md p-2  relative"
             />
+                
 
             <button className=" text-white hover:text-lightBlack rounded-md  cursor-pointer p-1 h-9 bg-darkBlue   shadow-lg hover:bg-tabBlue w-25 ">
               Subscribe
