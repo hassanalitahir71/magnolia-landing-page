@@ -6,6 +6,7 @@ A modern, fully responsive landing page for "Magnolia Travels," a fictional trav
 
 
 
+
 ## ✨ Features
 
 * **Responsive Navigation:** Fully functional mobile menu and desktop navbar.
@@ -55,7 +56,8 @@ Make sure you have Node.js and npm installed on your machine.
 3. Install NPM packages:
      ```sh
      npm install
- Make sure to install required dependencies if you haven't already: 
+ Make sure to install required dependencies if you haven't already:
+ ```sh
  npm install react-icons react-slick slick-carousel
 
 4.Start the development server:
