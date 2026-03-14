@@ -13,7 +13,7 @@ const Herosection = () => {
           Visit the Most <span className="text-darkBlue">Beautiful Places</span>{" "}
           in the World
         </h1>
-
+        
         <p className="text-lightBlack max-w-md">
           Pack your luggage and pick your destination, we will provide you the
           flight ticket, hotel booking and best guides
