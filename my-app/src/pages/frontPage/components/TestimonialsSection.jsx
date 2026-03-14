@@ -94,7 +94,7 @@ const TestimonialsSection = () => {
                   </div>
                 </div>
 
-                {/* Title */}
+                {/* Titlee */}
                 <h2 className="font-bold text-sm">{items.title}</h2>
 
                 {/* Content */}
