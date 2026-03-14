@@ -20,9 +20,6 @@ const Herosection = () => {
           </text>
         </div>
 
-
-
-
         <section className="flex flex-row w-[100%] h-24 py-6 px-8 bg-white rounded-full">
           <div className="flex flex-row justify-center items-center border-r border-gray  gap-9">
             <div className="flex flex-col justify-center ">
