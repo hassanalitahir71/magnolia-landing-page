@@ -27,14 +27,6 @@ const Herosection = () => {
             <div className="flex items-center gap-2">
               <FiMapPin className="text-darkBlue" />
               <h4>Choose Location</h4>
-        <section className="flex flex-row w-[100%] h-24 py-6 px-8 bg-white rounded-full">
-          <div className="flex flex-row justify-center items-center border-r border-gray  gap-9">
-            <div className="flex flex-col justify-center ">
-              <h4 className="text-gray">Location</h4>
-              <div className="flex flex-row justify-center items-center gap-1">
-                <FiMapPin className="text-darkBlue" />
-                <h4>Choose Location</h4>
-              </div>
             </div>
           </div>
 
