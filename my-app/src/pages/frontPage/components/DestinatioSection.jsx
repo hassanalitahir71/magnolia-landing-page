@@ -4,7 +4,7 @@ const DestinatioSection = () => {
   const destination_list = [
     {
       id: "1",
-      destination: "Rome, Italty",
+      destination: "Rome, Italy",
       img: "/images/1pic.png",
       amount: "$5,42k",
       daystrip: "10 Days Trip",
@@ -24,35 +24,49 @@ const DestinatioSection = () => {
       daystrip: "28 Days Trip",
     },
   ];
+
   return (
-    <>
-     <h1 className="text-4xl font-bold text-darkBlue flex justify-center mt-25">
-       Top Destinations
+    <div className="mt-20 px-6">
+      {/* Title */}
+      <h1 className="text-3xl md:text-4xl font-bold text-darkBlue text-center">
+        Top Destinations
       </h1>
-    <div className=" h-100 w-full  flex gap-10 mt-10 justify-center">
-      {destination_list.map((items) => (
-        <div key={items.id} className=" h-full  w-65">
-          <img className="h-[70%] w-full rounded-t-xl" src={items.img} alt="" />
-          <div className="h-[30%] flex flex-col  bg-white p-5 rounded-b-xl gap-=1">
-            <div className="flex  flex-col gap-1 ">
-            <h1 className="text-xl font-semibold">{items.destination}</h1>
-            <div className="flex flex-row">
-              <FaLocationArrow />
-              <p className="text-sm text-[#84829a]">{items.daystrip}</p>
-            </div>
-            </div>
-            <div className="flex flex-row justify-between">
-              <h1 className="text-lg font-semibold">{items.amount}</h1>
-              <button className=" text-white hover:text-lightBlack rounded-full cursor-pointer p-1 bg-darkBlue   shadow-lg hover:bg-tabBlue w-25 ">
-                Book Now
-              </button>
+
+      {/* Grid */}
+      <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
+        {destination_list.map((items) => (
+          <div
+            key={items.id}
+            className="w-70  bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition"
+          >
+            {/* Image */}
+            <img
+              className="h-56 w-full object-cover"
+              src={items.img}
+              alt={items.destination}
+            />
+
+            {/* Card Content */}
+            <div className="p-5 flex flex-col gap-1">
+              <h1 className="text-xl font-semibold">{items.destination}</h1>
+
+              <div className="flex items-center gap-2 text-[#84829a] text-sm">
+                <FaLocationArrow />
+                <p>{items.daystrip}</p>
+              </div>
+
+              <div className="flex justify-between items-center mt-2">
+                <h1 className="text-lg font-semibold">{items.amount}</h1>
+
+                <button className="bg-darkBlue text-white px-4 py-2 rounded-full hover:bg-tabBlue transition">
+                  Book Now
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-      ))}
-      
+        ))}
+      </div>
     </div>
-    </>
   );
 };
 
