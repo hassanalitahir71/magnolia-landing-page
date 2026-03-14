@@ -1,6 +1,10 @@
+import DestinatioSection from "./components/DestinatioSection";
+import EmailSection from "./components/EmailSection";
+import Footer from "./components/Footer";
 import Header from "./components/header";
 import Herosection from "./components/Herosection";
 import OurServices from "./components/OurServices";
+import TestimonialsSection from "./components/TestimonialsSection";
 
 function FrontPage() {
   return (
@@ -9,6 +13,10 @@ function FrontPage() {
       <Header />
       <Herosection />
       <OurServices />
+      <DestinatioSection/>
+      <TestimonialsSection/>
+      <EmailSection/>
+      <Footer/>
     </container>
   );
 }
