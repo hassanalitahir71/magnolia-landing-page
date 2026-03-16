@@ -2,6 +2,12 @@
 
 A modern, fully responsive landing page for "Magnolia Travels," a fictional travel agency. Built using React and Tailwind CSS, this project features a clean UI, interactive hover states, and a mobile-friendly design to help users browse destinations, view services, and book trips.
 
+# 🎨 Design Reference
+
+This project was developed by converting the following Figma design into a responsive React application.
+
+🔗 Figma Design: https://www.figma.com/design/acsv6rvHq9BwvKmeakpfPM/Travel-Agency?node-id=1-3188&m=dev&t=MAOvFLsbOfSPXn0a-1
+
 ## 📸 Previews
 <img width="1889" height="836" alt="1" src="https://github.com/user-attachments/assets/f982bbca-109f-40e8-bc50-229891222cf5" />
 <img width="1862" height="850" alt="our services" src="https://github.com/user-attachments/assets/d458770f-5142-4fb3-90de-487c41f6157b" />
@@ -64,7 +70,7 @@ Make sure you have Node.js and npm installed on your machine.
  ```sh
  npm install react-icons react-slick slick-carousel
 
-5.Start the development server:
+5. Start the development server:
 ```sh
 npm run dev
        
