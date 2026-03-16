@@ -3,6 +3,12 @@
 A modern, fully responsive landing page for "Magnolia Travels," a fictional travel agency. Built using React and Tailwind CSS, this project features a clean UI, interactive hover states, and a mobile-friendly design to help users browse destinations, view services, and book trips.
 
 ## 📸 Previews
+<img width="1889" height="836" alt="1" src="https://github.com/user-attachments/assets/f982bbca-109f-40e8-bc50-229891222cf5" />
+<img width="1862" height="850" alt="our services" src="https://github.com/user-attachments/assets/d458770f-5142-4fb3-90de-487c41f6157b" />
+<img width="1891" height="834" alt="destinations" src="https://github.com/user-attachments/assets/289e0a7b-bded-4aba-9f2d-6f780d41033e" />
+<img width="1902" height="830" alt="testimonials" src="https://github.com/user-attachments/assets/f5fc5120-69f1-43aa-b9ef-75782dd5cfd8" />
+<img width="1902" height="838" alt="header" src="https://github.com/user-attachments/assets/fe9ce7d1-2e9c-4836-bcfb-87b32d875d47" />
+
 
 ## ✨ Features
 
